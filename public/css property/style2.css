@@ -627,12 +627,26 @@ nav .search_box span:hover::after {
 
 .pre-btn {
   left: 0;
+  margin-left: 1rem;
+  top: 11rem;
   transform: rotate(180deg);
+}
+
+.pre-btn, .nxt-btn {
+  opacity: 0.2;
+}
+
+.btn-hover:hover{
+  opacity: 1;
+  background-color: var(--color-red);
+  color: white;
 }
 
 
 .nxt-btn {
   right: 0;
+  margin-right: 1rem;
+  top: 11rem;
 }
 
 
